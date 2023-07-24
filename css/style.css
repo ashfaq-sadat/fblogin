@@ -28,8 +28,10 @@ body {
 .form-area h1 {
 	font-size: 18px;
 	line-height: 22px;
+	padding: 24px 0px;
 }
 form input {
+	border-color: gainsboro;
 	border-radius: 6px;
 	font-size: 17px;
 	padding: 14px 16px;
@@ -43,4 +45,14 @@ form input {
 	padding: 0 16px;
 	width: 332px;
 	background-color: #166fe5;
+}
+#login-btn:hover {
+	background-color: #448ae6;
+}
+
+.links {
+	padding: 12px 0 18px;
+}
+.links span {
+	margin-left: 10px;
 }
