@@ -1,0 +1,46 @@
+body {
+	background: #f0f2f5;
+	overflow: hidden;
+}
+
+.main {
+	width: 396px;
+	margin: 0 auto;
+	text-align: center;
+}
+.logo-container {
+}
+.logo-container img {
+	display: block;
+	width: 240px;
+	margin: auto;
+}
+
+.form-area {
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+
+	padding: 0 0 14px 0;
+	background-color: #fff;
+}
+.form-area h1 {
+	font-size: 18px;
+	line-height: 22px;
+}
+form input {
+	border-radius: 6px;
+	font-size: 17px;
+	padding: 14px 16px;
+	width: 330px;
+}
+#login-btn {
+	border: none;
+	border-radius: 6px;
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 16px;
+	width: 332px;
+	background-color: #166fe5;
+}
